@@ -12,7 +12,7 @@
 
 function mostrarMultiplos(numero, limite){
     console.log("Multiplos de "+numero+" hasta "+limite);
-    for(let i=1;i<=limite;i++){
+    for(let i=2;i<=limite;i++){
         if (multiplo(i,numero)){
             console.log(i);
         }
